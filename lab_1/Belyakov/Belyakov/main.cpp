@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout << "Hello, World!" << endl;
+int main(int argc, char *argv[]) {
+    cout << "file" << endl;
+    cout << argv[0] << endl;
     return 0;
 }
-
-//
